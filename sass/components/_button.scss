@@ -31,8 +31,7 @@
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
 
-  &::after,
-  &:focus {
+  &::after {
     content: '';
     display: inline-block;
     height: 100%;
