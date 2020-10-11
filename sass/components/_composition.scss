@@ -33,6 +33,7 @@
     }
   }
 
+  // select all not-hovered __photo
   &:hover &__photo:not(:hover) {
     transform: scale(0.95);
   }

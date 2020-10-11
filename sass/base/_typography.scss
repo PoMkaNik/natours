@@ -37,6 +37,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
+  // [start] to add gradient on text
   display: inline-block;
   background: linear-gradient(
     to right,
@@ -46,6 +47,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  // [end] of gradient on text
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 

@@ -8,9 +8,9 @@
   transition: all 0.3s;
 
   &__icon {
-    display: inline-block;
     font-size: 6rem;
     margin-bottom: 0.5rem;
+    display: inline-block;
     background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
