@@ -20,8 +20,8 @@
   // but if resolution of screen is high BUT width is below 37.5em/600px
   // as on all smartphones -> no value from displaying high-quality img
   // 192dpi from apple devices as used reference
-  @media (min-resolution: 192dpi) and (min-width: 37.5em),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em) {
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em) {
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.8),
