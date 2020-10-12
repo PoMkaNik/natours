@@ -19,6 +19,10 @@
     transform: skewX(0);
   }
 
+  @include respond(small-phone) {
+    padding-left: 4rem;
+  }
+
   &__shape {
     position: relative;
     width: 15.1rem;
@@ -34,6 +38,15 @@
     @include respond(phone) {
       transform: translateX(-3rem) skewX(0);
     }
+
+    @include respond(small-phone) {
+      float: none;
+      width: 15.2rem;
+      height: 15.2rem;
+      margin: 0 auto;
+      left: 3rem;
+      margin-bottom: 1rem;
+    }
   }
 
   &__img {
@@ -48,6 +61,10 @@
 
     @include respond(phone) {
       transform: skewX(0);
+    }
+
+    @include respond(small-phone) {
+      text-align: center;
     }
   }
 
