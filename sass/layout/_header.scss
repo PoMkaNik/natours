@@ -1,5 +1,5 @@
 .header {
-  height: 85vh;
+  height: 85vh; // if browser not supported clip-path
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
@@ -19,7 +19,7 @@
   // show high-quality img
   // but if resolution of screen is high BUT width is below 37.5em/600px
   // as on all smartphones -> no value from displaying high-quality img
-  // 192dpi from apple devices as used reference
+  // 192dpi from apple devices as used for reference
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
     only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em) {
     background-image: linear-gradient(

@@ -2,7 +2,7 @@
   // BASIC SETTINGS
   perspective: 150rem;
   position: relative;
-  // due to position:absolute we need explicitly set height
+  // due to position:absolute in children el we need explicitly set height
   // for parent el the same as __side to have perspective work
   height: 52rem;
 
